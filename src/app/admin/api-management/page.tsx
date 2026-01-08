@@ -68,7 +68,7 @@ export default function AdminApiPage() {
             }
             setIsDialogOpen(false);
             setEditingProvider(null);
-            setFormData({ name: "", base_url: "", api_key: "", secret_key: "", is_active: true });
+            setFormData({ name: "", base_url: "", webhook_url: "", api_key: "", secret_key: "", is_active: true });
             fetchData();
         } catch (err) {
             toast.error("Operation failed");
@@ -91,6 +91,7 @@ export default function AdminApiPage() {
         setFormData({
             name: provider.name,
             base_url: provider.base_url,
+            webhook_url: provider.webhook_url || "",
             api_key: provider.api_key || "",
             secret_key: provider.secret_key || "",
             is_active: Boolean(provider.is_active)
@@ -124,7 +125,7 @@ export default function AdminApiPage() {
                             </div>
                             <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
                                 <DialogTrigger asChild>
-                                    <Button onClick={() => { setEditingProvider(null); setFormData({ name: "", base_url: "", api_key: "", secret_key: "", is_active: true }); }}>
+                                    <Button onClick={() => { setEditingProvider(null); setFormData({ name: "", base_url: "", webhook_url: "", api_key: "", secret_key: "", is_active: true }); }}>
                                         <Plus className="w-4 h-4 mr-2" /> Add Provider
                                     </Button>
                                 </DialogTrigger>
