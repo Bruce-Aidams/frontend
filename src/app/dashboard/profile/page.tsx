@@ -9,6 +9,7 @@ import { User, Mail, Phone, MapPin, Calendar, ShieldCheck, Edit2, Save, Activity
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
+import api from "@/lib/axios";
 
 export default function ProfilePage() {
     const [user, setUser] = useState<{ name: string; email: string; role: string; created_at: string; two_factor_enabled: boolean } | null>(null);

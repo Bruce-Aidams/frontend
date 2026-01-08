@@ -264,9 +264,10 @@ export default function AdminAnalyticsPage() {
                                         nameKey="network"
                                         stroke="none"
                                         animationDuration={1500}
+                                        cornerRadius={8}
                                     >
                                         {data.network_distribution.map((entry, index) => (
-                                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} cornerRadius={8} />
+                                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                                         ))}
                                     </Pie>
                                     <Tooltip />
@@ -385,12 +386,14 @@ export default function AdminAnalyticsPage() {
 }
 
 function StatCard({ title, value, sub, icon, trend, positive, color, delay }: any) {
-    const colorClasses = {
+    const colorMap = {
         primary: "from-indigo-600 to-blue-700 shadow-indigo-200",
         indigo: "from-violet-600 to-indigo-700 shadow-indigo-200",
         emerald: "from-emerald-500 to-teal-700 shadow-emerald-200",
         rose: "from-rose-500 to-pink-700 shadow-rose-200",
-    }[color as keyof typeof colorClasses];
+    };
+
+    const colorClasses = colorMap[color as keyof typeof colorMap];
 
     return (
         <motion.div
