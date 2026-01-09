@@ -1,0 +1,6 @@
+[00:00:15.495] Server  LOG     ✓ Ready in 11.3s
+[00:00:22.961] Server  LOG     ○ Compiling / ...
+[00:00:49.107] Server  LOG     ✓ Finished filesystem cache database compaction in 10.7s
+[00:01:03.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:12.111] Browser LOG     [Axios Request] GET /products {"hasToken":true,"headers":{"Accept":"application/json","Content-Type":"application/json"}}
+[00:01:15.868] Browser LOG     [Axios Response] 200 /products [{"cost_price":0,"created_at":"2025-12-30T19:51:50.000000Z","data_amount":"2GB","id":1,"image_path":null,"is_active":true,"name":"1GB","network":"Telecel","price":"13.00","role_prices":null,"updated_at":"2026-01-02T02:33:14.000000Z"},{"cost_price":0,"created_at":"2026-01-02T08:29:18.000000Z","data_amount":"1gb","id":2,"image_path":null,"is_active":true,"name":"1gb","network":"MTN","price":"30.00","role_prices":null,"updated_at":"2026-01-02T08:29:18.000000Z"},{"cost_price":14,"created_at":"2026-01-05T21:47:22.000000Z","data_amount":"3GB","id":3,"image_path":null,"is_active":true,"name":"3GB","network":"AirtelTigo","price":"22.00","role_prices":{"dealer":"20","super_agent":"19"},"updated_at":"2026-01-05T21:47:22.000000Z"}]

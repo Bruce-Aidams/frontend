@@ -1,0 +1,11 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__b7d26b39._.js")
+R.c("server/chunks/ssr/Desktop_Projects_Megaai_frontend_cc82d0bc._.js")
+R.c("server/chunks/ssr/be213_next_dist_244d6331._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__c3438d11._.js")
+R.c("server/chunks/ssr/be213_82269418._.js")
+R.c("server/chunks/ssr/be213_next_dist_b42b7a1e._.js")
+R.c("server/chunks/ssr/Desktop_Projects_Megaai_frontend_src_app_3d05a6bc._.js")
+R.c("server/chunks/ssr/7e03e_Megaai_frontend__next-internal_server_app__global-error_page_actions_7e71c73b.js")
+R.m(51808)
+module.exports=R.m(51808).exports

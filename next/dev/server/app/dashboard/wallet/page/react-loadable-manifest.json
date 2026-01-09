@@ -1,0 +1,10 @@
+{
+  "[project]/Desktop/Projects/Megaai/frontend/src/components/payment/PaystackPaymentProvider.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/Desktop/Projects/Megaai/frontend/src/components/payment/PaystackPaymentProvider.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/be213_react-paystack_dist_index_es_a538cabb.js",
+      "static/chunks/7e03e_Megaai_frontend_src_components_payment_PaystackPaymentProvider_tsx_fc6c2113._.js",
+      "static/chunks/7e03e_Megaai_frontend_src_components_payment_PaystackPaymentProvider_tsx_d3dcf62c._.js"
+    ]
+  }
+}

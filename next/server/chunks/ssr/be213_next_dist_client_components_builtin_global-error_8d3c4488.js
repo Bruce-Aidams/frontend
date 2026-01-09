@@ -1,0 +1,3 @@
+module.exports=[7918,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(36268);a.n(d("[project]/Desktop/Projects/Megaai/frontend/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},69125,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(36268);a.n(d("[project]/Desktop/Projects/Megaai/frontend/node_modules/next/dist/client/components/builtin/global-error.js"))},81420,a=>{"use strict";a.i(7918);var b=a.i(69125);a.n(b)}];
+
+//# sourceMappingURL=be213_next_dist_client_components_builtin_global-error_8d3c4488.js.map
